@@ -221,7 +221,7 @@
     letter-spacing: 0.5px; 
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(226, 225, 225);
+    /* border-bottom: 1px solid rgb(226, 225, 225); */
   }
   .sect1-2> p {
     font-size: 13px;
@@ -229,6 +229,77 @@
     color: rgb(114, 112, 112);
     font-weight: bold;
 
+  }
+  /* stylinp second section of main*/
+  .sect2 {
+    padding-top: 30px;
+    border-top: 1px solid rgb(226, 225, 225);
+  }
+  .sect2comntcontainer {
+    display: flex;
+    padding-bottom: 30px;
+  } 
+  .com18 {
+  margin-right: 40px;
+  } 
+  .sort {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+  } 
+  .pipo {     
+    width: 40px;  
+    height: 40px;  
+    box-sizing: border-box; 
+    border-radius: 50%; 
+    margin-right: 20px;
+    cursor: pointer;
+  } 
+  .addcmmt {
+    color: rgb(114, 112, 112);
+    border-bottom: 1px solid rgb(226, 225, 225);
+    font-size: 14px;
+    flex: 1;
+  }
+  .views-1 {
+   background-color: #8C6E63;
+   font-size:20px;
+   text-align: center;
+   padding: 10px;
+   color:white;
+  }
+  .views-2 { 
+   background-image: url(/home/racheal/Documents/images/WinN.jpg); 
+   background-size: contain;
+  }
+  .views-3 { 
+   background-image: url(/home/racheal/Documents/images/xtine.jpg); 
+   background-size: contain;
+  }
+  .views-4 { 
+   background-image: url(/home/racheal/Documents/images/luyi.jpg); 
+   background-size: contain;
+  }
+  .sect2-comments {
+    font-size: 14px; 
+    line-height: 20px;
+  }
+  .commentline1a {
+    font-weight: bold;
+  }
+  .commentline1b {
+    color: rgb(114, 112, 112);
+    font-size: small;
+  }
+  .sect2-icons {
+    padding-top: 10px;
+  }
+  .sect2-icons>span {
+    margin-right: 20px;
+  }
+  .sect2-reply {
+    color: rgb(114, 112, 112);
+    font-weight: bold;
   }
 
   
