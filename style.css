@@ -127,9 +127,109 @@
     margin-top: 20px;
     margin-left: 20px; 
     }
-
+   /* styling the first section */
   .sect1{
     width: 100%;
     }
-    
+
+  figcaption {  
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+  .figcap {
+    display: flex;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+  } 
+  .figcap1{
+    color: rgb(114, 112, 112);
+    }
+
+  .video-icons{
+    display: flex;
+    flex: 1;  
+    justify-content: flex-end;
+    cursor: pointer; 
+    }  
+
+  .video-icons> span:not(:last-child) {
+    margin-right: 20px;
+  }
+  .video-icons> span > i {   
+    font-size: 20px;
+  }
+  /* styling section 1 sub section */
+  .sect1-1 {
+    padding-top: 20px;
+    display: flex;
+    border-top: 1px solid rgb(226, 225, 225);
+    justify-content: flex-end;
+  }
+
+  .tee {
+    background-color: #689F39; 
+    width: 50px;  
+    height: 50px;  
+    box-sizing: border-box; 
+    border-radius: 50%; 
+    text-align: center; 
+    padding: 10px;
+    font-size:30px; 
+    color:white;
+    margin-right: 20px;
+    cursor: pointer;
+    } 
+  
+   .odin {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+   #subscriber{
+    color: rgb(114, 112, 112);
+    font-size: small;
+    font-weight: normal;
+  }
+  .subscriton-button {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  #subbtn {
+    background-color: #CC0000; 
+    width: 110px;  
+    box-sizing: border-box; 
+    border-radius: 3px;
+    text-align: center; 
+    padding: 10px;
+    font-size: 14px; 
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;  
+  }
+
+  .sect1-2{
+    font-size: 14px;
+    margin-left: 70px;
+    word-spacing: 1px; 
+    letter-spacing: 0.5px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+  }
+  .sect1-2> p {
+    font-size: 13px;
+    padding-top: 15px;
+    color: rgb(114, 112, 112);
+    font-weight: bold;
+
+  }
+
+  
     
