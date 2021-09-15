@@ -230,7 +230,7 @@
     font-weight: bold;
 
   }
-  /* stylinp second section of main*/
+  /* styling second section of main*/
   .sect2 {
     padding-top: 30px;
     border-top: 1px solid rgb(226, 225, 225);
@@ -246,6 +246,7 @@
     font-size: 14px;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
   } 
   .pipo {     
     width: 40px;  
@@ -286,6 +287,7 @@
   }
   .commentline1a {
     font-weight: bold;
+    cursor: pointer;
   }
   .commentline1b {
     color: rgb(114, 112, 112);
@@ -297,9 +299,13 @@
   .sect2-icons>span {
     margin-right: 20px;
   }
+  .sect2-icons> span >i {
+    cursor: pointer;
+  }
   .sect2-reply {
     color: rgb(114, 112, 112);
     font-weight: bold;
+    cursor: pointer;
   }
 
   
