@@ -329,7 +329,34 @@
   .bar > button:hover:not(first-child) {
     background-color: #ddd;
   }
+  .sect2-aside {
+    display: flex; 
+    margin-top: 20px; 
+    cursor: pointer;
+  }
   
+  section.sect2-aside > a > img {  
+    width: 200px;
+    height: 100px;
+    border: 1ps solid black;
+  }
+
+  .previews {
+    margin-left: 8px;
+    line-height: 20px; 
+    /* flex: 1; */
+    
+  }
+  
+  .previews >div {
+   font-weight: bold; 
+   font-size: 14px;
+   height: 40px; 
+   line-height: 20px;    
+   overflow: hidden;
+   text-overflow: ellipsis;
+   
+  }
 
   
     
