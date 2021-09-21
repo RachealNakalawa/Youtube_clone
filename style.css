@@ -63,7 +63,6 @@
     cursor: pointer;
     }
   form{
-    /* display: flex; */
     flex: 1;
     }
 
@@ -74,8 +73,7 @@
     font-size: 16px;                   
     height: 30px; 
     padding: 10px;
-    width: 100%; 
-    /* flex: 1; */
+    width: 100%;
     }
 
   #searchbtn {
@@ -101,7 +99,7 @@
     background-color:#8C6E63; 
     width: 35px; 
     height: 35px; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border-radius: 50%; 
     text-align: center; 
     padding: 10px;
@@ -109,20 +107,20 @@
     color:white;
     } 
 
-  /* Column container */
+  /* container  2 columns */
   .flex-container {
     display: flex;
     width: 100%;
     height: 100%;
     padding-top: 20px;
-    background-color: #F8F8F8;
     }
+
   /* Main column */
   .main {
     display: flex;
     flex-direction: column;
-    flex: 55%;
-    margin-left: 80px;
+    width: 60%;
+    padding-left:80px;
     
   }
    /* styling the first section */
@@ -219,7 +217,6 @@
     letter-spacing: 0.5px; 
     padding-top: 20px;
     padding-bottom: 20px;
-    /* border-bottom: 1px solid rgb(226, 225, 225); */
   }
   .sect1-2> p {
     font-size: 13px;
@@ -268,15 +265,15 @@
    color:white;
   }
   .views-2 { 
-   background-image: url(/home/racheal/Documents/images/WinN.jpg); 
+   background-image: url(images/WinN.jpg); 
    background-size: contain;
   }
   .views-3 { 
-   background-image: url(/home/racheal/Documents/images/xtine.jpg); 
+   background-image: url(images/xtine.jpg); 
    background-size: contain;
   }
   .views-4 { 
-   background-image: url(/home/racheal/Documents/images/luyi.jpg); 
+   background-image: url(images/luyi.jpg); 
    background-size: contain;
   }
   .sect2-comments {
@@ -308,12 +305,12 @@
   /*styling the side container*/
   aside {
     padding-right: 80px;
-    margin-left: 20px;
-    flex: 45%;
+    padding-left: 20px;
+    width: 40%;
     }
     
     .bar > button {
-    padding: 10px 15px;
+    padding: 8px 15px;
     margin-right: 4px;
     font-size: 14px;
     width: auto;
@@ -322,12 +319,30 @@
     border: 1px solid rgb(209, 208, 208);
     cursor: pointer;
   }
+
   .bar > button:first-child {
-    background-color: #0e0d0d; /* Black */
+    background-color: #0e0d0d; 
     color: white;
   }
-  .bar > button:hover:not(first-child) {
+  .bar > button:first-child:hover {
+    background-color: #0e0d0d;
+  }
+
+  .bar >button:hover {
     background-color: #ddd;
+  }
+
+  .bar {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .raquo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
   }
   .sect2-aside {
     display: flex; 
@@ -338,24 +353,25 @@
   section.sect2-aside > a > img {  
     width: 200px;
     height: 100px;
-    border: 1ps solid black;
   }
 
   .previews {
     margin-left: 8px;
-    line-height: 20px; 
-    /* flex: 1; */
-    
+    line-height: 20px;
+    padding: 0 12px 0 0;
+    overflow: hidden;   
+    flex: 1;
   }
   
-  .previews >div {
+  .previews > .previews-span {
    font-weight: bold; 
    font-size: 14px;
-   height: 40px; 
    line-height: 20px;    
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
    overflow: hidden;
    text-overflow: ellipsis;
-   
   }
 
   
