@@ -13,7 +13,7 @@ The ability to work with backgrounds, background and thumbnail-images in HTML, a
 - CSS
 
 ## Live Demo 
-[Live Link](https://raw.githack.com/RachealNakalawa/Youtube_clone/featureheader/index.html)
+[Live Link](https://raw.githack.com/RachealNakalawa/Youtube_clone/main/index.html)
 
 ## Getting Started
 To get a local copy of this repository, please run the following commands on your terminal
